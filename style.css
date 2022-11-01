@@ -6,14 +6,14 @@ body{
     background: f1fbff;
 }
 .section-padding{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 .carousel-item{
-    height: 100vh;
-    min-height: 300px;
+    height: 70vh;
+    min-height: 100px;
 }
 .carousel-caption{
-    bottom: 220px;
+    bottom: 110px;
     z-index: 2;
 }
 .carousel-caption h5{
@@ -31,8 +31,8 @@ body{
 .carousel-timer::before{
    content: '';
    position: absolute;
-   width: 100%;
-   height: 100%;
+   width: 50%;
+   height: 50%;
    top: 0;
    left: 0;
    background: rgba(0,0,0,0.7);
